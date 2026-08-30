@@ -33,14 +33,6 @@ incluidos, y solo se agregan los métodos específicos del negocio
 (`calcularSueldos`, `obtenerMayorAntiguedad`, `obtenerMenorAntiguedad`,
 `imprimirNomina`).
 
-## Cómo ejecutarlo
-
-```bash
-cd java
-javac -d bin -encoding UTF-8 src/nomina/*.java
-cd bin
-java nomina.MainRedes ../junio.dat
-```
 
 (Si no se pasa ruta como argumento, el programa busca `junio.dat` en la
 carpeta desde la que se ejecuta.)
