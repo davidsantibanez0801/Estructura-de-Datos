@@ -12,7 +12,7 @@
 cd java/src
 javac -d ../bin -encoding UTF-8 *.java
 cd ../bin
-java Main
+java MainRedes
 ```
 
 Al abrirse la ventana, presiona **"Seleccionar archivo CSV"** y elige el
@@ -34,7 +34,7 @@ cualquier otro con el mismo formato.
 | `AnalizadorRedes.java` | `AnalizadorRedes` | Los 4 calculos |
 | `InterfazApp.java` | `InterfazApp` | Ventana grafica (Swing) |
 | `VentanaSeleccionMeses.java` | `VentanaSeleccionMeses` (`JDialog`) | Ventana emergente para elegir meses |
-| `Main.java` | `Main` | Punto de entrada |
+| `MainRedes.java` | `MainRedes` | Punto de entrada |
 
 Ver el formato esperado del CSV y mas detalle de la arquitectura en el
 `README.md` de la carpeta de la tarea (un nivel arriba).

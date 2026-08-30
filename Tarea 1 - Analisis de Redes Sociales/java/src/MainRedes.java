@@ -6,9 +6,9 @@ import java.nio.charset.StandardCharsets;
  * Punto de entrada del programa.
  *
  * Para ejecutarlo (desde la carpeta que contiene el .class o el .jar):
- *     java Main
+ *     java MainRedes
  */
-public class Main {
+public class MainRedes {
     public static void main(String[] args) {
         // Forzamos UTF-8 en la salida de consola para que acentos y "ñ"
         // se vean bien en cualquier sistema operativo.

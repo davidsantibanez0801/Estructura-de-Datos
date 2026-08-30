@@ -33,7 +33,7 @@ resultados numericos identicos.
 | Lectura del archivo CSV | `lector_datos.py` → `LectorDatos` | `LectorDatos.java` |
 | Calculos (logica de negocio) | `analizador.py` → `AnalizadorRedes` | `AnalizadorRedes.java` |
 | Interfaz grafica | `interfaz.py` → `InterfazApp` (tkinter) | `InterfazApp.java` (Swing) + `VentanaSeleccionMeses.java` |
-| Punto de entrada | `main.py` | `Main.java` |
+| Punto de entrada | `main.py` | `MainRedes.java` |
 
 Separar el programa en estas clases (una responsabilidad por clase) permite
 que, si cambia el formato del archivo, solo se modifique `LectorDatos`; si
@@ -56,7 +56,7 @@ python main.py
 cd java/src
 javac -d ../bin -encoding UTF-8 *.java
 cd ../bin
-java Main
+java MainRedes
 ```
 
 Al abrirse la ventana, selecciona el archivo `datos_redes_sociales.csv`
