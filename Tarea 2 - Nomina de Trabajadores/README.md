@@ -36,8 +36,3 @@ incluidos, y solo se agregan los métodos específicos del negocio
 
 (Si no se pasa ruta como argumento, el programa busca `junio.dat` en la
 carpeta desde la que se ejecuta.)
-
-## Evidencias
-
-Ver [`evidencias/Evidencias_Java.pdf`](./evidencias/Evidencias_Java.pdf) para
-capturas de la compilación y ejecución con los datos reales.
