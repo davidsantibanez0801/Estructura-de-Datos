@@ -48,7 +48,3 @@ Contiene el patrón clásico **"glider"** en una cuadrícula de 10x10 — un
 patrón de 5 células que se desplaza en diagonal, ideal para comprobar
 visualmente que las reglas de nacimiento/muerte están bien implementadas.
 Puedes reemplazarlo por cualquier otra matriz de 0s y 1s del mismo formato.
-
-## Evidencias
-
-Ver [`evidencias/Evidencias_Java.pdf`](./evidencias/Evidencias_Java.pdf).
