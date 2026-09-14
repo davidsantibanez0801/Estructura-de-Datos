@@ -42,32 +42,9 @@ posibles.
 Todas las clases están en el paquete `tarea3` (para no chocar con los `Main`
 de las demás tareas del repositorio).
 
-## Cómo ejecutar
-
-```bash
-cd java
-javac -d bin -encoding UTF-8 src/tarea3/*.java
-
-# Problema A
-cd bin
-java tarea3.MainAjedrez
-
-# Problema B (desde la carpeta bin)
-java tarea3.MainJuegoVida ../poblacion_inicial.csv
-```
-
-> **IntelliJ / Eclipse / NetBeans:** el "working directory" de la
-> configuración de ejecución debe ser la carpeta `java/` (donde está
-> `../poblacion_inicial.csv`), o bien pasa la ruta completa del CSV como
-> argumento del programa.
-
 ## Archivo de ejemplo: `../poblacion_inicial.csv`
 
 Contiene el patrón clásico **"glider"** en una cuadrícula de 10x10 — un
 patrón de 5 células que se desplaza en diagonal, ideal para comprobar
 visualmente que las reglas de nacimiento/muerte están bien implementadas.
 Puedes reemplazarlo por cualquier otra matriz de 0s y 1s del mismo formato.
-
-## Evidencias
-
-Ver [`evidencias/Evidencias_Java.pdf`](./evidencias/Evidencias_Java.pdf).
