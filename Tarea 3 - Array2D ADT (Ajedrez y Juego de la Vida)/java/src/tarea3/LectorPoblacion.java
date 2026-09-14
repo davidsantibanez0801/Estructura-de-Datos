@@ -14,11 +14,6 @@ import java.util.List;
  * la Vida: una matriz de 0s y 1s (1 = célula viva, 0 = célula
  * muerta), separados por comas, un renglón del archivo por cada
  * fila de la cuadrícula.
- *
- * El tamaño de la cuadrícula NO está fijo en el código: lo
- * determina el propio archivo (número de renglones y de valores
- * por renglón), siempre que cumpla con el mínimo de 10x10 que
- * pide la tarea.
  * ------------------------------------------------------------
  */
 public class LectorPoblacion {

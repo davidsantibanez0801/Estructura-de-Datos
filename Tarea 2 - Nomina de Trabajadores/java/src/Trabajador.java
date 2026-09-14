@@ -6,8 +6,7 @@
  *
  * Ademas de guardar los datos que vienen del archivo, esta clase
  * sabe calcular SU PROPIO sueldo del mes (encapsulamiento de la
- * regla de negocio: nadie fuera de esta clase necesita saber la
- * formula, solo llaman a calcularSueldo()).
+ * regla de negocio
  * ------------------------------------------------------------
  */
 public class Trabajador {

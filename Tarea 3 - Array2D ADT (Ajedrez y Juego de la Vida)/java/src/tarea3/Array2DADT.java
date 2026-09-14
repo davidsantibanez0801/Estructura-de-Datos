@@ -1,21 +1,5 @@
 package tarea3;
 
-/**
- * Array2DADT.java
- * ------------------------------------------------------------
- * ADT genérico para una matriz de 2 dimensiones (renglones x
- * columnas), del mismo estilo que el ArrayADT<T> visto en clase
- * para 1 dimensión (mismo patrón: envolver un arreglo interno de
- * Object[] y exponer operaciones seguras con validación de
- * rango).
- *
- * Esta clase NO nos la dieron en clase — la construimos nosotros
- * siguiendo el mismo diseño del ArrayADT de la tarea anterior,
- * pero para 2 dimensiones, porque ambos problemas de esta tarea
- * (tablero de ajedrez y juego de la vida) necesitan una
- * cuadrícula, no una sola fila.
- * ------------------------------------------------------------
- */
 public class Array2DADT<T> {
 
     private final int renglones;

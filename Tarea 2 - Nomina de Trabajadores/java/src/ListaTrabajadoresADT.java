@@ -3,16 +3,6 @@
  * ------------------------------------------------------------
  * Este es el ADT que pide la tarea: "un ADT a partir del ADT
  * Array que almacene la informacion del archivo".
- *
- * Se construye HEREDANDO de ArrayADT<Trabajador> (extends), es
- * decir, ListaTrabajadoresADT ES-UN ArrayADT especializado para
- * guardar Trabajadores, al que le agregamos operaciones propias
- * del negocio: calcular sueldos, encontrar mayor/menor
- * antigüedad e imprimir la nomina completa.
- *
- * Gracias a la herencia, no tuvimos que volver a escribir
- * obtenerElemento(), insertarElemento() ni longitud(): ya vienen
- * incluidos desde ArrayADT.
  * ------------------------------------------------------------
  */
 public class ListaTrabajadoresADT extends ArrayADT<Trabajador> {

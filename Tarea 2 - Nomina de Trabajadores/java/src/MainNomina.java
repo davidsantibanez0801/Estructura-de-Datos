@@ -11,14 +11,6 @@ import java.time.Year;
  *   2) Calcular el sueldo de cada trabajador
  *   3) Mostrar el de mayor y menor antigüedad
  *   4) Mostrar la nomina completa con el sueldo a pagar
- *
- * Para ejecutarlo:
- *   javac -d bin -encoding UTF-8 src/*.java
- *   cd bin
- *   java MainRedes ../junio.dat
- *
- * (Si no se indica ruta por argumento, usa "junio.dat" por defecto,
- * buscandolo en la carpeta desde la que se ejecuta el programa.)
  * ------------------------------------------------------------
  */
 public class MainNomina {

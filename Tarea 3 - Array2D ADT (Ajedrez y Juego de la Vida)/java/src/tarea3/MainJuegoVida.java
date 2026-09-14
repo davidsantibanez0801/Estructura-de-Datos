@@ -11,12 +11,6 @@ import java.nio.charset.StandardCharsets;
  *   1) Lee la población inicial desde un archivo CSV.
  *   2) Muestra la generación 0 (la inicial, tal como viene del archivo).
  *   3) Calcula y muestra 10 generaciones más, una por una.
- *
- * Para ejecutarlo desde terminal:
- *   java tarea3.MainJuegoVida poblacion_inicial.csv
- *
- * (Si no se indica ruta por argumento, busca "poblacion_inicial.csv"
- * en el directorio de trabajo actual.)
  * ------------------------------------------------------------
  */
 public class MainJuegoVida {

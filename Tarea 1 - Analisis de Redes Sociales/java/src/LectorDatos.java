@@ -9,10 +9,6 @@ import java.util.Map;
 /**
  * Clase encargada de leer el archivo CSV y convertir cada fila en
  * datos dentro de un objeto Facebook, Twitter o Youtube.
- *
- * Se separa esta responsabilidad en su propia clase (principio de
- * responsabilidad unica) para no mezclar "leer archivo" con
- * "hacer calculos" ni con "dibujar la interfaz".
  */
 public class LectorDatos {
 

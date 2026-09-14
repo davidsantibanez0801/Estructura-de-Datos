@@ -10,11 +10,9 @@ import java.util.List;
  * ------------------------------------------------------------
  * Responsable UNICAMENTE de leer el archivo .dat y convertir
  * cada renglon en un objeto Trabajador dentro de un
- * ListaTrabajadoresADT. No hace calculos de sueldo ni imprime
- * nada: esa es tarea de otras clases.
- *
+ * ListaTrabajadoresADT.
  * Formato esperado de cada renglon (separado por comas):
- *   numero, nombres, paterno, materno, horas extra, sueldo base, año de ingreso
+ *   número, nombres, paterno, materno, horas extra, sueldo base, año de ingreso
  * ------------------------------------------------------------
  */
 public class LectorTrabajadores {

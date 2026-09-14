@@ -11,10 +11,6 @@ import java.util.function.BiConsumer;
 /**
  * Clase InterfazApp: maneja TODA la parte visual (ventana, botones,
  * tablas, mensajes) usando Swing.
- *
- * No hace calculos ni lee archivos directamente: para eso usa a
- * LectorDatos y AnalizadorRedes. Asi cada clase tiene una sola
- * responsabilidad (mas facil de explicar y de mantener).
  */
 public class InterfazApp {
 

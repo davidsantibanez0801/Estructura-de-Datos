@@ -3,23 +3,12 @@ package tarea3;
 /**
  * JuegoDeLaVida.java
  * ------------------------------------------------------------
- * Problema B de la tarea: el clásico "Juego de la Vida" de
- * Conway, implementado sobre un Array2DADT<Boolean> (true =
- * célula viva, false = célula muerta).
- *
  * Reglas aplicadas en calcularSiguienteGeneracion():
  *   1) Célula viva con 2 o 3 vecinos vivos -> sobrevive.
  *   2) Célula viva con 0 o 1 vecinos vivos -> muere (soledad).
  *   3) Célula viva con 4 o más vecinos vivos -> muere (sobrepoblación).
  *   4) Célula muerta con exactamente 3 vecinos vivos -> nace.
  *      El resto de células muertas permanecen muertas.
- *
- * IMPORTANTE (supuesto de diseño): el tablero tiene bordes FIJOS,
- * es decir, NO es un tablero toroidal/circular. Una célula en la
- * orilla simplemente tiene menos vecinos posibles (los que caen
- * fuera de la cuadrícula no cuentan). Esta es la variante más
- * común de la implementación del juego cuando no se especifica
- * lo contrario.
  * ------------------------------------------------------------
  */
 public class JuegoDeLaVida {
@@ -42,9 +31,7 @@ public class JuegoDeLaVida {
 
     /**
      * Calcula la siguiente generación y la deja como el estado actual.
-     * Se construye un tablero NUEVO con los resultados: todas las
-     * células se evalúan contra el estado ACTUAL (no el que se va
-     * modificando a medias), tal como exige el juego de la vida.
+     * Se construye un tablero NUEVO con los resultados:
      */
     public void calcularSiguienteGeneracion() {
         Array2DADT<Boolean> siguiente = new Array2DADT<>(renglones, columnas);

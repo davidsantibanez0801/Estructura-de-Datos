@@ -3,9 +3,6 @@ package tarea3;
 /**
  * TableroAjedrez.java
  * ------------------------------------------------------------
- * Problema A de la tarea: un tablero de ajedrez que SOLO muestra
- * la posición inicial (no es funcional, no permite mover piezas).
- *
  * El tablero es un Array2DADT<Character> de 8x8, donde cada
  * casilla guarda el carácter Unicode de la pieza que le
  * corresponde en la posición inicial, o ' ' (espacio) si la

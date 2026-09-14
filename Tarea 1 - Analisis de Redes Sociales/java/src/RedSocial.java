@@ -3,13 +3,6 @@ import java.util.Map;
 
 /**
  * Clase base para cualquier red social.
- *
- * Conceptos de POO aplicados:
- * - Clase abstracta: no tiene sentido crear un objeto "RedSocial" a secas,
- *   siempre es Facebook, Twitter o Youtube (por eso es abstract).
- * - Herencia: Facebook, Twitter y Youtube extienden de esta clase.
- * - Encapsulamiento: el mapa de datos es privado y solo se accede a traves
- *   de metodos publicos (agregarConcepto, obtenerValor, promedio, etc.)
  */
 public abstract class RedSocial {
 
