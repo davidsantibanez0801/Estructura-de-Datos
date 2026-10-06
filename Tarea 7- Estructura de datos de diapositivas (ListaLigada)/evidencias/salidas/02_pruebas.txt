@@ -1,0 +1,36 @@
+[PASS] Lista nueva: estaVacia()
+[PASS] Lista nueva: getTamanio() == 0
+[PASS] Lista nueva: toString() == Vacia
+[PASS] agregar() x3: tamanio
+[PASS] agregar() x3: orden
+[PASS] agregarAlInicio(): primer elemento
+[PASS] agregarAlInicio(): tamanio
+[PASS] agregarDespuesDe(): posicion
+[PASS] agregarDespuesDe(): tamanio
+[PASS] agregarAntesDe(cabeza)
+[PASS] agregarAntesDe(): nuevo head
+[PASS] agregarAntesDe(inexistente) == false
+[PASS] insertarEn(indice invalido) == false
+[PASS] insertarEn(tamanio) == true (al final)
+[PASS] insertarEn(): ultimo elemento
+[PASS] contiene() existente
+[PASS] contiene() inexistente
+[PASS] indiceDe() inexistente == -1
+[PASS] obtener() fuera de rango == null
+[PASS] obtener() negativo == null
+[PASS] actualizar(): contiene nuevo
+[PASS] actualizar(): ya no contiene el viejo
+[PASS] eliminar() existente
+[PASS] eliminar(): tamanio - 1
+[PASS] eliminar() inexistente
+[PASS] eliminar(cabeza)
+[PASS] eliminarPrimero() regresa el dato
+[PASS] eliminarUltimo() regresa el dato
+[PASS] vaciar(): estaVacia()
+[PASS] eliminarPrimero() en vacia == null
+[PASS] eliminarUltimo() en vacia == null
+[PASS] eliminar() en vacia == false
+[PASS] eliminarUltimo() con 1 nodo regresa el dato
+[PASS] eliminarUltimo() con 1 nodo: queda vacia
+
+Resultado: 34/34 pruebas exitosas

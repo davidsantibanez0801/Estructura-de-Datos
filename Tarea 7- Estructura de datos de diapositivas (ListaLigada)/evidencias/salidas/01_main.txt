@@ -1,0 +1,84 @@
+
+=== 1. Lista recien creada ===
+Esta vacia? true
+Transversal: Vacia
+Tamanio: 0
+
+=== 2. agregar() al final ===
+Transversal: |Pierna (BBQ) $85.00|Muslo (Adobada) $70.00|Pechuga (Chimichurri) $95.50|
+Tamanio: 3
+
+=== 3. agregarAlInicio() ===
+  [0] Alas (Picante) $60.00
+  [1] Pierna (BBQ) $85.00
+  [2] Muslo (Adobada) $70.00
+  [3] Pechuga (Chimichurri) $95.50
+
+=== 4. agregarDespuesDe(Muslo, Entero) ===
+  [0] Alas (Picante) $60.00
+  [1] Pierna (BBQ) $85.00
+  [2] Muslo (Adobada) $70.00
+  [3] Entero (Limon) $210.00
+  [4] Pechuga (Chimichurri) $95.50
+
+=== 5. agregarAntesDe(Pechuga, Pierna BBQ grande) ===
+Insertado? true
+  [0] Alas (Picante) $60.00
+  [1] Pierna (BBQ) $85.00
+  [2] Muslo (Adobada) $70.00
+  [3] Entero (Limon) $210.00
+  [4] Pierna (BBQ grande) $110.00
+  [5] Pechuga (Chimichurri) $95.50
+
+=== 6. insertarEn(2, Combo familiar) ===
+Insertado? true
+insertarEn(99, ...) -> false (indice invalido)
+  [0] Alas (Picante) $60.00
+  [1] Pierna (BBQ) $85.00
+  [2] Combo familiar (Mixta) $320.00
+  [3] Muslo (Adobada) $70.00
+  [4] Entero (Limon) $210.00
+  [5] Pierna (BBQ grande) $110.00
+  [6] Pechuga (Chimichurri) $95.50
+
+=== 7. contiene() / indiceDe() / obtener() ===
+contiene(Pechuga)? true
+indiceDe(Pechuga) = 6
+obtener(0) = Alas (Picante) $60.00
+obtener(50) = null (fuera de rango)
+contiene(Costilla)? false
+
+=== 8. actualizar(Muslo $70.00 -> Muslo $55.00) ===
+  [0] Alas (Picante) $60.00
+  [1] Pierna (BBQ) $85.00
+  [2] Combo familiar (Mixta) $320.00
+  [3] Muslo (Adobada) $55.00
+  [4] Entero (Limon) $210.00
+  [5] Pierna (BBQ grande) $110.00
+  [6] Pechuga (Chimichurri) $95.50
+actualizar() de un dato inexistente: No se encontro: Costilla (Miel) $120.00
+
+=== 9. eliminar(Entero) ===
+Eliminado? true
+Eliminar de nuevo? false
+  [0] Alas (Picante) $60.00
+  [1] Pierna (BBQ) $85.00
+  [2] Combo familiar (Mixta) $320.00
+  [3] Muslo (Adobada) $55.00
+  [4] Pierna (BBQ grande) $110.00
+  [5] Pechuga (Chimichurri) $95.50
+
+=== 10. eliminarPrimero() y eliminarUltimo() ===
+Primero eliminado: Alas (Picante) $60.00
+Ultimo eliminado:  Pechuga (Chimichurri) $95.50
+  [0] Pierna (BBQ) $85.00
+  [1] Combo familiar (Mixta) $320.00
+  [2] Muslo (Adobada) $55.00
+  [3] Pierna (BBQ grande) $110.00
+Tamanio: 4
+
+=== 11. vaciar() ===
+Transversal: Vacia
+Esta vacia? true
+eliminarPrimero() en lista vacia = null
+eliminarUltimo() en lista vacia  = null
