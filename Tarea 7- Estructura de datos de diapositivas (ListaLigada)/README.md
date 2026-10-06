@@ -46,15 +46,6 @@ Tarea 7- Estructura de datos de diapositivas (ListaLigada)/
 | `vaciar()` | **Nuevo** | O(1) |
 | `toString()` | **Nuevo** | O(n) |
 
-## Cómo ejecutar
-Desde la carpeta `java/`:
-```bash
-javac -d out src/tarea7/*.java
-java -cp out tarea7.Main                 # demostración
-java -cp out tarea7.PruebasListaLigada   # pruebas automáticas
-```
-En IntelliJ IDEA: abrir `java/` como módulo, marcar `src` como *Sources Root* y ejecutar `Main`.
-
 ## Notas
 - `PolloAsado` sobreescribe `equals()`/`hashCode()`: la lista compara con `equals()`; sin esto,
   `actualizar`, `agregarDespuesDe`, `eliminar` y `contiene` compararían referencias y fallarían.
